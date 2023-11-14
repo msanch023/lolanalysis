@@ -1,3 +1,10 @@
 theme: minima
 
 title: Does a winning toplaner make winning the game more likely or is toplane irrelevant?
+author:
+  name: Marco Sanchez
+  email: mas023@ucsd.edu
+
+description: >
+  Analysis on whether having a winning toplaner, toplaner ahead in gold, 
+  15 minutes into the game when laning phase ends makes winning the game more likely.
