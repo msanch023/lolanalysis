@@ -9,3 +9,5 @@ gem "webrick", "~> 1.8"
 gem "jekyll"
 
 gem 'jekyll-theme-minima'
+
+gem 'jekyll-titles-from-headings'

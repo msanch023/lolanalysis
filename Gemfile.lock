@@ -58,6 +58,8 @@ GEM
       jekyll (~> 3.8)
       jekyll-mentions
       minima
+    jekyll-titles-from-headings (0.5.3)
+      jekyll (>= 3.3, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.4.0)
@@ -101,6 +103,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-theme-minima
+  jekyll-titles-from-headings
   webrick (~> 1.8)
 
 BUNDLED WITH
