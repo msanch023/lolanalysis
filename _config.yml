@@ -8,13 +8,13 @@ titles_from_headings:
   strip_title: true
   collections: true 
 
-title: League of legends toplane impact analysis
+title: League of legends top lane impact analysis
 author:
-  name: 'Marco Sanchez'
-  email: 'mas023@ucsd.edu'
+  Marco
+  
 
 description: >
-  Analysis on whether having a toplaner ahead in gold 
+  Analysis on whether having a top laner ahead in gold 
   15 minutes into the game makes winning the game more likely.
 
 
