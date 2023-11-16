@@ -23,11 +23,14 @@ happens to be the most snowballable lane. This means that once either of the
 laners get ahead the lane becomes very uneven in favor of the laner who is ahead.
 We define who is ahead at any given time during laning phase by who has more gold.
 
+### Description of Columns
+
 By simplifying the data down to 8 columns and around 21000 rows, I had all the 
 data I would need in order to answer whether winning became more likely when 
 the top laner was fed.
 
 **Columns Used**
+`\n`
 `gameid`
 position	
 champion	
@@ -37,7 +40,7 @@ opp_goldat15
 golddiffat15	
 winning_lane
 
-### Description of Columns
+
 
 ## Data Cleaning and Exploratory Data Analysis
 
