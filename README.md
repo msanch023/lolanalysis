@@ -28,7 +28,7 @@ data I would need in order to answer whether winning became more likely when
 the top laner was fed.
 
 **Columns Used**
-> gameid	
+`gameid`
 position	
 champion	
 result	
