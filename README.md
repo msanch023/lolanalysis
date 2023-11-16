@@ -76,4 +76,10 @@ Here is the head of the data frame
 
 <iframe src="assets/uniHist.html" width=800 height=600 frameBorder=0></iframe>
 
+<iframe src="assets/uniBox.html" width=800 height=600 frameBorder=0></iframe>
+
 ### **Bivariate**
+
+<iframe src="assets/biScatter.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/biBox.html" width=800 height=600 frameBorder=0></iframe>
