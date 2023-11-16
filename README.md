@@ -33,7 +33,7 @@ the top laner was fed.
 
 
 
-`gameid` -> Unique game identifier
+`gameid` -> Unique game identifier <br />
 `position` -> Position being played, in this case only `top` is kept
 `champion` -> Character being played	
 `result` -> `1` if the match was won and `0` if the match was lost
