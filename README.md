@@ -133,6 +133,10 @@ for the dependency of `opp_goldat15` on `result` there is no evidence to conclud
 that `opp_goldat15` depends on `result`. Therefore in this case we fail to reject 
 the null hypothesis.
 
+**Observed Statistic:** 10914
+**P-value:** 0.5004995004995005
+
+
 |        0 |        1 |   Total |
 | 0.500094 | 0.499906 |       1 |
 | 0.5      | 0.5      |       1 |
@@ -147,6 +151,9 @@ independence of `opp_goldat15` from `champion` there is evidence to conclude tha
 `opp_goldat15` is not independent from `champion` and therefore we reject the 
 null hypothesis.
 
+**Observed Statistic:** 525
+**P-value:** 0.000999000999000999
+
 For this table I only included the first 10 champions since there are more than 160 champions in the game
 
 |     Aatrox |      Ahri |      Akali |      Akshan |    Alistar |      Amumu |      Anivia |       Annie |   Aphelios |       Ashe|
@@ -158,6 +165,21 @@ For this table I only included the first 10 champions since there are more than 
 
 
 ## **Hypothesis Testing**
+
+**Null Hypothesis:** Having a winning top laner does not make it more likely to 
+win the overall game.
+
+**Alternative Hypothesis:** Having a winning top laner does make it more likely 
+to win the overall game.
+
+**Test Statistic:** Chi-squared value: 1120.04451109239
+
+**Significance Level:** 0.05
+
+**P-value:** 1.4533165120851008e-245
+
+**Conclusion:** We reject the null hypothesis since there seems to be evidence 
+that winning a winning top laner does affect the outcome of the game.
 
 
 
