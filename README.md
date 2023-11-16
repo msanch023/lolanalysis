@@ -59,6 +59,7 @@ laner was winning or losing. I decided to replace `True` and `False`
 with `1` and `0` because I liked the binary look better.
 
 
+Here is the head of the data frame
 |   result |   goldat15 |   opp_goldat15 |   golddiffat15 |   winning_lane |
 |        0 |       5025 |           4634 |            391 |              1 |
 |        1 |       4634 |           5025 |           -391 |              0 |
@@ -72,5 +73,7 @@ with `1` and `0` because I liked the binary look better.
 
 
 ### **Univariate**
+
+<iframe src="assets/uniHist.html" width=800 height=600 frameBorder=0></iframe>
 
 ### **Bivariate**
