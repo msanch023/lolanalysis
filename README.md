@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Does winning become more likely with a winning top laner?
 
 ### By Marco Sanchez
