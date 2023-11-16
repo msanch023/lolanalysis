@@ -124,6 +124,39 @@ role being played or the league the match was being played in.
 
 ### **Missingness Dependency**
 
+To test if the missingness in one of the columns might be NMAR or MAR I took 
+`opp_goldat15` and tested whether its missingness depended on `results` or 
+`champion`. 
+
+My permutation tests found that with a p-value of 0.4595404595404595 
+for the dependency of `opp_goldat15` on `result` there is no evidence to conclude 
+that `opp_goldat15` depends on `result`. Therefore in this case we fail to reject 
+the null hypothesis.
+
+|        0 |        1 |   Total |
+| 0.500094 | 0.499906 |       1 |
+| 0.5      | 0.5      |       1 |
+| 0.50008  | 0.49992  |       1 |
+
+<iframe src="assets/empDist.html" width=800 height=600 frameBorder=0></iframe>
+
+
+For the second part of the permutation tests I tested whether `opp_goldat15` was 
+independent from `champion`. With a p-value of 0.000999000999000999 for the 
+independence of `opp_goldat15` from `champion` there is evidence to conclude that 
+`opp_goldat15` is not independent from `champion` and therefore we reject the 
+null hypothesis.
+
+For this table I only included the first 10 champions since there are more than 160 champions in the game
+
+|     Aatrox |      Ahri |      Akali |      Akshan |    Alistar |      Amumu |      Anivia |       Annie |   Aphelios |       Ashe|
+| 0.0118615  | 0.0227448 | 0.012868   | 0.00179663  | 0.00576616 | 0.00385665 | 0.000442103 | 0.000112877 |  0.0302229 | 0.00366852 |
+| 0.00830126 | 0.028862  | 0.00951072 | 0.000604728 | 0.0117097  | 0.00307861 | 5.49753e-05 | 0.000109951 |  0.0459593 | 0.00153931 |
+| 0.0113414  | 0.0236386 | 0.0123775  | 0.00162249  | 0.00663454 | 0.00374297 | 0.000385542 | 0.00011245  |  0.0325221 | 0.00335743 |
+
+<iframe src="assets/empDist2.html" width=800 height=600 frameBorder=0></iframe>
+
+
 ## **Hypothesis Testing**
 
 
