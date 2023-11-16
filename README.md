@@ -63,10 +63,7 @@ called `winning_lane` which contains either `1` or `0` for whether the
 laner was winning or losing. I decided to replace `True` and `False`
 with `1` and `0` because I liked the binary look better.
 
-```py
-print('hi)
 
-```
 
 ### **Univariate**
 
