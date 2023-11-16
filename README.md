@@ -32,7 +32,7 @@ By simplifying the data down to 5 columns and around 21000 rows, I had
 all the data I would need in order to answer whether winning became more
 likely when the top laner was fed.
 
-**Columns Used** 
+**Columns Used** <br />
 `result` -\> `1` if the match was won and `0` if the
 match was lost<br /> `goldat15` -\> The total amount of gold the player
 has gathered at 15 minutes <br /> `opp_goldat15` -\> The total amount of
@@ -59,7 +59,7 @@ laner was winning or losing. I decided to replace `True` and `False`
 with `1` and `0` because I liked the binary look better.
 
 
-Here is the head of the data frame
+Here is the head of the data frame <br />
 |   result |   goldat15 |   opp_goldat15 |   golddiffat15 |   winning_lane |
 |        0 |       5025 |           4634 |            391 |              1 |
 |        1 |       4634 |           5025 |           -391 |              0 |
