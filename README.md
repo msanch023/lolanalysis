@@ -59,7 +59,7 @@ laner was winning or losing. I decided to replace `True` and `False`
 with `1` and `0` because I liked the binary look better.
 
 ```py
-print('hi)
+print('hi')
 ```
 
 ### **Univariate**
