@@ -60,6 +60,7 @@ with `1` and `0` because I liked the binary look better.
 
 
 Here is the head of the data frame <br />
+
 |   result |   goldat15 |   opp_goldat15 |   golddiffat15 |   winning_lane |
 |        0 |       5025 |           4634 |            391 |              1 |
 |        1 |       4634 |           5025 |           -391 |              0 |
