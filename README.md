@@ -28,13 +28,14 @@ more gold.
 
 ### **Description of Columns**
 
-By simplifying the data down to 5 columns and around 21000 rows, I had
+By simplifying the data down to 6 columns and around 21000 rows, I had
 all the data I would need in order to answer whether winning became more
 likely when the top laner was fed.
 
 **Columns Used** <br />
 `result` -\> `1` if the match was won and `0` if the
-match was lost<br /> `goldat15` -\> The total amount of gold the player
+match was lost<br /> `champion` -\> The character that the player was using
+`goldat15` -\> The total amount of gold the player
 has gathered at 15 minutes <br /> `opp_goldat15` -\> The total amount of
 gold the opponent has gathered at 15 minutes<br /> `golddiffat15` -\>
 The differential in gold between the two players<br /> `winning_lane`
@@ -48,9 +49,9 @@ gold<br />
 When cleaning the data I decided to keep only the rows relevant to top
 lane and the gold information of the two players.
 
-I started by removing all columns besides `position`, `result`,
+I started by removing all columns besides `position`, `champion`, `result`,
 `goldat15`, `opp_goldat15`, and `golddiffat15`. After I had isolated the
-5 columns that I would need, I filtered out all of the roles that werent
+6 columns that I would need, I filtered out all of the roles that werent
 top. Once that was done I dropped the position column since the position
 filtering was already done. I then checked for any missing values and
 removed the rows that contained any. Lastly I created a new column
@@ -61,12 +62,13 @@ with `1` and `0` because I liked the binary look better.
 
 Here is the head of the data frame
 
-|   result |   goldat15 |   opp_goldat15 |   golddiffat15 |   winning_lane |
-|        0 |       5025 |           4634 |            391 |              1 |
-|        1 |       4634 |           5025 |           -391 |              0 |
-|        0 |       4673 |           6157 |          -1484 |              0 |
-|        1 |       6157 |           4673 |           1484 |              1 |
-|        1 |       5856 |           4952 |            904 |              1 |
+| position   | champion   |   result |   goldat15 |   opp_goldat15 |   golddiffat15 |   winning_lane |
+| top        | Renekton   |        0 |       5025 |           4634 |            391 |              1 |
+| top        | Gragas     |        1 |       4634 |           5025 |           -391 |              0 |
+| top        | Gragas     |        0 |       4673 |           6157 |          -1484 |              0 |
+| top        | Gangplank  |        1 |       6157 |           4673 |           1484 |              1 |
+| top        | Renekton   |        1 |       5856 |           4952 |            904 |              1 |
+
 
 
 
@@ -107,6 +109,25 @@ league of legends even a 200 gold lead can mean a won or lost fight.
 
 
 ## **Assessment of Missingness**
+
+### **NMAR Analysis**
+
+Due to the way the data is presented I believe that there is are columns in the 
+dataset that are NMAR (not missing at random). A good example is how the gold 
+information for some of the players was missing but the gold information for 
+other players in the same game was present. There are also some games where the 
+gold information is completely missing for players but the it is present for 
+the teams overall. This points towards the possibility that the missingness 
+depends on the column itself and not another column. Some data that might suggest 
+that the data is MAR (missing at random) would be if it was missing based on the 
+role being played or the league the match was being played in.
+
+### **Missingness Dependency**
+
+## **Hypothesis Testing**
+
+
+
 
 
 
