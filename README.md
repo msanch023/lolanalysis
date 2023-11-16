@@ -59,7 +59,7 @@ laner was winning or losing. I decided to replace `True` and `False`
 with `1` and `0` because I liked the binary look better.
 
 
-Here is the head of the data frame <br />
+Here is the head of the data frame
 
 |   result |   goldat15 |   opp_goldat15 |   golddiffat15 |   winning_lane |
 |        0 |       5025 |           4634 |            391 |              1 |
@@ -104,6 +104,9 @@ it was interesting.
 This `groupby()` shows that when the top laners are winning they generally have 
 more gold than their opponents. While the gold differences dont seem like much, in 
 league of legends even a 200 gold lead can mean a won or lost fight. 
+
+
+## **Assessment of Missingness**
 
 
 
