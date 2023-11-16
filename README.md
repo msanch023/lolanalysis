@@ -58,8 +58,22 @@ called `winning_lane` which contains either `1` or `0` for whether the
 laner was winning or losing. I decided to replace `True` and `False`
 with `1` and `0` because I liked the binary look better.
 
-'|    |   result |   goldat15 |   opp_goldat15 |   golddiffat15 |   winning_lane |\n|---:|---------:|-----------:|---------------:|---------------:|---------------:|\n|  0 |        0 |       5025 |           4634 |            391 |              1 |\n|  5 |        1 |       4634 |           5025 |           -391 |              0 |\n| 12 |        0 |       4673 |           6157 |          -1484 |              0 |\n| 17 |        1 |       6157 |           4673 |           1484 |              1 |\n| 36 |        1 |       5856 |           4952 |            904 |              1 |'
+|    |   result |   goldat15 |   opp_goldat15 |   golddiffat15 |   winning_lane |\n
+|---:|---------:|-----------:|---------------:|---------------:|---------------:|\n
+|  0 |        0 |       5025 |           4634 |            391 |              1 |\n
+|  5 |        1 |       4634 |           5025 |           -391 |              0 |\n
+| 12 |        0 |       4673 |           6157 |          -1484 |              0 |\n
+| 17 |        1 |       6157 |           4673 |           1484 |              1 |\n
+| 36 |        1 |       5856 |           4952 |            904 |              1 |
 
+
+
+	result	goldat15	opp_goldat15	golddiffat15	winning_lane
+0	0	5025.0	4634.0	391.0	1
+5	1	4634.0	5025.0	-391.0	0
+12	0	4673.0	6157.0	-1484.0	0
+17	1	6157.0	4673.0	1484.0	1
+36	1	5856.0	4952.0	904.0	1
 
 ### **Univariate**
 
