@@ -76,10 +76,33 @@ Here is the head of the data frame
 
 <iframe src="assets/uniHist.html" width=800 height=600 frameBorder=0></iframe>
 
-<iframe src="assets/uniBox.html" width=800 height=600 frameBorder=0></iframe>
+This histogram provides a visual representation of the amount of gold that top 
+laners have collected by 15 minutes which tends to be around 4000 to 6000 gold.
 
 ### **Bivariate**
 
+<iframe src="assets/biBox.html" width=800 height=600 frameBorder=0></iframe>
+
+This box plot shows the gold diff at 15 minutes and whether they won or not. As 
+you can see there is not much of a difference in whether the gold lead helps 
+the top laner win or not.
+
 <iframe src="assets/biScatter.html" width=800 height=600 frameBorder=0></iframe>
 
-<iframe src="assets/biBox.html" width=800 height=600 frameBorder=0></iframe>
+This scatter plot shows how much gold a top laner has at 15 minutes and the gold 
+difference between them and their opponent. I included this one because I thought 
+it was interesting.
+
+### **Interesting Aggregates**
+
+|   result |   mean |   median |     std |   min |   max |
+|        0 | 5071.8 |     5009 | 603.128 |  2806 |  8288 |
+|        1 | 5401.1 |     5290 | 703.966 |  3062 |  9854 |
+
+
+This `groupby()` shows that when the top laners are winning they generally have 
+more gold than their opponents. While the gold differences dont seem like much, in 
+league of legends even a 200 gold lead can mean a won or lost fight. 
+
+
+
