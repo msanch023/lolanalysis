@@ -38,7 +38,8 @@ By simplifying the data down to 5 columns and around 21000 rows, I had
 all the data I would need in order to answer whether winning became more
 likely when the top laner was fed.
 
-**Columns Used** `result` -\> `1` if the match was won and `0` if the
+**Columns Used** 
+`result` -\> `1` if the match was won and `0` if the
 match was lost<br /> `goldat15` -\> The total amount of gold the player
 has gathered at 15 minutes <br /> `opp_goldat15` -\> The total amount of
 gold the opponent has gathered at 15 minutes<br /> `golddiffat15` -\>
