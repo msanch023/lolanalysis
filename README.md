@@ -8,7 +8,7 @@ missingness, and conducted a hypothesis test.
 
 ## **Introduction**
 
-The data set I used was taken from HYPERLINK and contains information on
+The data set I used was taken from [Oracle's Elixer](https://oracleselixir.com/tools/downloads) and contains information on
 professional league of legends matches from 2022. This data set contains
 149401 rows and 56 columns. There are 12 rows per game with 10 of the
 rows containing information about the players and the last 2 containing
